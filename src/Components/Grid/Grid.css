@@ -1,0 +1,40 @@
+.grid-wrapper{
+    margin-top: -5px;
+    text-align: center;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.grid{
+    height: 430px;
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color: blue;
+}
+
+.turn-highlight{
+    margin-top: 5px;
+    color: aliceblue
+}
+.reset{
+    margin-top: -10px;
+    padding: 10px 10px;
+    background-color: #852ae7;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.5s ease;
+}
+.reset:hover{
+    background-color: #790aef;
+    color: yellow;
+}
